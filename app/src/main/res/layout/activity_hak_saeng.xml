@@ -15,6 +15,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/haksaeng"
             ></ImageView>
+
     </LinearLayout>
 
     <LinearLayout
@@ -28,9 +29,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="10sp"></Space>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -52,9 +55,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="vertical">
+
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="10sp"></Space>
+
                 <TextView
                     android:text="              전화번호 안내\n  학생지원과:\n  031-467-8209,8254\n  사회봉사센터:\n  031-467-8438\n  보건진료소:\n  031-467-8386\n  체육교육관:\n  031-467-8290\n"
                     android:textSize="16sp"
@@ -62,15 +67,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     ></TextView>
-            </LinearLayout>
 
+            </LinearLayout>
 
         </LinearLayout>
 
-
-
     </LinearLayout>
-
-
 
 </LinearLayout>
