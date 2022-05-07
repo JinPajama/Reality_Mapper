@@ -17,6 +17,7 @@
         android:layout_height="200sp"
         android:layout_gravity="center"
         ></ImageView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,11 +37,9 @@
 
                 ></TextView>
 
-            /*테스트 주석*/
         </LinearLayout>
 
-
-        ></LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,9 +78,10 @@
        
         </LinearLayout>
 
+    </LinearLayout>
 
-        ></LinearLayout>
     <Space
         android:layout_width="match_parent"
         android:layout_height="70sp"></Space>
+
 </LinearLayout>
