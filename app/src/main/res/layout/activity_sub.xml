@@ -10,6 +10,7 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="10dp"></Space>
+
     <ImageView
         android:src="@drawable/sungkyul"
         android:layout_width="130dp"
@@ -23,7 +24,7 @@
         android:layout_gravity="center"
         android:text="건물 정보 안내"
         android:textColor="@color/black"
-        android:textSize="25dp"></TextView>
+        android:textSize="25sp"></TextView>
 
     <Space
         android:layout_width="match_parent"
