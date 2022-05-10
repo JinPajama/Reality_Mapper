@@ -9,12 +9,12 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="50sp"></Space>
+        android:layout_height="50dp"></Space>
 
     <ImageView
         android:src="@drawable/sungkyul"
-        android:layout_width="200sp"
-        android:layout_height="200sp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
         ></ImageView>
     <LinearLayout
@@ -30,7 +30,7 @@
             <TextView
                 android:text="   SungKyul Maps"
                 android:textColor="@color/black"
-                android:textSize="50sp"
+                android:textSize="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -82,5 +82,5 @@
         ></LinearLayout>
     <Space
         android:layout_width="match_parent"
-        android:layout_height="50sp"></Space>
+        android:layout_height="50dp"></Space>
 </LinearLayout>

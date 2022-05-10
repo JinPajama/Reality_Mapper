@@ -9,9 +9,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnMap;
-    Button btnInfo;
-    Button btnImprovements;
+    Button btnMap; /*지도*/
+    Button btnInfo; /*건물정보*/
+    Button btnImprovements;  /*개선사항*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,15 +23,10 @@ public class MainActivity extends AppCompatActivity {
         btnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent = new Intent(MainActivity.this, SubActivity.class);
+                Intent intent = new Intent(getApplicationContext(),
+                        SubActivity.class);
                 startActivity(intent);
             }
         });
-
-
-
-
-
     }
 }

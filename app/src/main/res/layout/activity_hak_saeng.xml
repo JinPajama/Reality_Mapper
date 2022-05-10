@@ -32,12 +32,12 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10sp"></Space>
+                android:layout_height="10dp"></Space>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:textColor="@color/black"
                 android:text="                   층별안내\n1층:\n학생지원과,잡카페,사회봉사센터,글로벌라운지\n2층:\n총학생회,대의원회,보건진료소\n3층:\n헬스장,무도실,동아리실\n4층:\n체육관,체육교육과 행정실\n5층:\n체육관"
                 ></TextView>
@@ -58,11 +58,11 @@
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="10sp"></Space>
+                    android:layout_height="10dp"></Space>
 
                 <TextView
                     android:text="              전화번호 안내\n  학생지원과:\n  031-467-8209,8254\n  사회봉사센터:\n  031-467-8438\n  보건진료소:\n  031-467-8386\n  체육교육관:\n  031-467-8290\n"
-                    android:textSize="16sp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

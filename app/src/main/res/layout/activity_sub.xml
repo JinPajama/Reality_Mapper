@@ -9,11 +9,11 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="10sp"></Space>
+        android:layout_height="10dp"></Space>
     <ImageView
         android:src="@drawable/sungkyul"
-        android:layout_width="130sp"
-        android:layout_height="130sp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_gravity="center"
         ></ImageView>
 
@@ -23,15 +23,15 @@
         android:layout_gravity="center"
         android:text="건물 정보 안내"
         android:textColor="@color/black"
-        android:textSize="25sp"></TextView>
+        android:textSize="25dp"></TextView>
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="10sp"></Space>
+        android:layout_height="10dp"></Space>
 
     <Button
         android:id="@+id/btnJae"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="재림관"></Button>
@@ -45,42 +45,42 @@
 
     <Button
         android:id="@+id/btnGi"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="기념관"></Button>
 
     <Button
         android:id="@+id/btnChung"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="중생관"></Button>
 
     <Button
         android:id="@+id/btnYoung"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="영암관"></Button>
 
     <Button
         android:id="@+id/btnHak"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="학생회관"></Button>
 
     <Button
         android:id="@+id/btnSung"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="성결관"></Button>
 
     <Button
         android:id="@+id/btnSin"
-        android:layout_width="100sp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="신유관"></Button>
