@@ -12,11 +12,11 @@
         android:layout_height="50dp" ></Space>
 
     <ImageView
-        android:src="@drawable/sungkyul"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        ></ImageView>
+        android:src="@drawable/sungkyulmaps"></ImageView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -62,11 +62,15 @@
 
             <Button
                 android:id="@+id/btnInfo"
+                android:layout_width="143dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10sp"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/buildong"
+                android:padding="5px"
                 android:text="건물정보"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                ></Button>
+                android:textColor="#5bb435"></Button>
 
             <Button
                 android:id="@+id/btnImprovements"
@@ -75,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 ></Button>
-       
+
         </LinearLayout>
 
 

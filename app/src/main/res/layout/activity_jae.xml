@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/jaerim"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></Space>
+
+            <ScrollView
+                android:id="@+id/bio_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="301dp">
+
+                <TextView
+                    android:id="@+id/bio_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="                   층별안내
+                    \n1층: 입학홍보과,학사관리과,생활협동조합사무실
+                    \n2층: 시설관재과, 정보기획과,
+                    \n3층: 사무처장실,직원휴게실,총무과,재무회계과,교무과,교육혁신센터,기획예산과,
+                    공학교육혁신센터,국제교류과,평가지원과
+                    \n4층: 평생교육원,상담실,강의실
+                    \n5층: 대학원교학과,강의실
+                    \n6층: BI센터,창업보츅센터,그린캠퍼스추진단,예비군대대
+                    \n7층: 회의실,강의실
+                    \n8층: 이사장실,총장실,법인사무국,회의실
+                    \n9층: 노동조합사무실,회의실
+                    \n10층: 컴퓨터A/S실,교수연구실"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></Space>
+
+                <TextView
+                    android:text="              전화번호 안내\n  학생지원과:\n  031-467-8209,8254\n  사회봉사센터:\n  031-467-8438\n  보건진료소:\n  031-467-8386\n  체육교육관:\n  031-467-8290\n"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
