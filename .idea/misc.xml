@@ -18,16 +18,24 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/buildong.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/maps.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/mops.xml" value="0.536" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/sungkyul.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/sungkyulmaps.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/user.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/user1.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/drawable/usor.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_chung.xml" value="0.1125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_gi.xml" value="0.1125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_hak_saeng.xml" value="0.21354166666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_jae.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_lib.xml" value="0.1125" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_sin.xml" value="0.1125" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_sub.xml" value="0.1125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_sub.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_sung.xml" value="0.1125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/activity_young.xml" value="0.1125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/layout/row_listview.xml" value="0.11197916666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1235" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Reality_Mapper/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1235" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/reality mapper/Reality_Mapper/app/src/main/res/layout/activity_hak_saeng.xml" value="0.36614583333333334" />
