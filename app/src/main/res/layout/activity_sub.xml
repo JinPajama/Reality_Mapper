@@ -7,17 +7,27 @@
     android:orientation="vertical"
     tools:context=".SubActivity">
 
-    <Space
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="10dp"></Space>
+        android:layout_height="238dp"
+        android:orientation="vertical">
 
-    <ImageView
-        android:src="@drawable/sungkyul"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_gravity="center"
-        ></ImageView>
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="검색어를 입력하세요." />
 
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:divider="#999999"
+            android:dividerHeight="1dp">
+
+        </ListView>
+
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,9 +36,6 @@
         android:textColor="@color/black"
         android:textSize="25sp"></TextView>
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="10dp"></Space>
 
     <Button
         android:id="@+id/btnJae"
