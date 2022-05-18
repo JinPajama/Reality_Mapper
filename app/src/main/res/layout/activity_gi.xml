@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gi"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2dp"></Space>
+
+            <ScrollView
+                android:id="@+id/bio_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="301dp">
+
+                <TextView
+                    android:id="@+id/bio_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="                   층별안내
+                    \n1층:\n 오딧세이21, 학생쉼터
+                    \n\n2층:\n 홍대실홀, 음악학부 실습실
+                    \n\n3층:\n 대학극장, 언어교육원, 연극영화학부 기자재실
+                    \n\n4층:\n 에스테틱실, 헤어디자인실, 대회의실, 메이크업실, 교수학습지원센터
+                    \n\n5층:\n 대강당, 교목실, 미용학과 실습실"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"></Space>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="301dp">
+
+                <TextView
+                    android:text="              전화번호 안내\n  신학대학: 기념관 231호  \n  031-467-8051\n\n  신학부: 기념관 231호  \n  031-467-8051\n
+             \n  신학과: 기념관 231호  \n  031-467-8051\n\n  예술대학: 기념관 237호  \n  031-467-8015\n\n  음악학부: 기념관 235호  \n  031-467-8283\n\n  연극영화학부: 기념관 304호  \n  031-467-8912\n\n  뷰티디자인학과: 기념관 403호  \n  031-467-8908\n\n 공연음악예술학부: 기념관 236호  \n  031-467-8375\n
+              \n  기독교교육상담학과: 기 231호  \n  031-467-8051\n\n  문화선교학과: 기념관 231호  \n  031-467-8051\n\n  언어교육원: 기념관 3층\n  031-467-8242\n\n 교수학습지원센터: 기 408,9호\n  031-467-8179\n\n  교목실: 기념관 5층\n  031-467-8202\n
+             \n"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ></TextView>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

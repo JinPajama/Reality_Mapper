@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/jung"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2dp"></Space>
+
+            <ScrollView
+                android:id="@+id/bio_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="301dp">
+
+                <TextView
+                    android:id="@+id/bio_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="                   층별안내
+                    \n지하:\n 학생식당, 매점, 동아리실
+                    \n\n1층:\n 외래교수실, 강의실
+                    \n\n2층:\n 강의실
+                    \n\n3층:\n 강의실
+                    \n\n4층:\n 강의실, 수업행동분석실
+                    \n\n5층:\n 교수연구실"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"></Space>
+
+                <ScrollView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="301dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="              전화번호 안내\n 사회과학대학: 중생관\n  031-467-8098\n\n 국제개발협력학과: 중생관 527호\n  031-467-8049\n\n 사회복지학과: 중생관 508호\n  031-467-8037\n\n 행정학과: 중생관 526호\n  031-467-8098\n
+                     \n글로벌경영기술교육연구센터:\n  031-467-8136\n\n 관광개발학과: 중생관 505호\n  031-467-8152\n\n 경영학과: 중생관 508호\n  031-467-8056\n\n 글로벌물류학부: 중생관 508호\n  031-467-8121\n
+                     \n 파이데이아학부: 중생관 410호\n  031-467-8120, 8029, 8025\n\n"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"></TextView>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
