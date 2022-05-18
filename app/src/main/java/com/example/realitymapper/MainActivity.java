@@ -18,6 +18,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btnMap = (Button) findViewById(R.id.btnMap);
+
+        btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent0 = new Intent(getApplicationContext(),
+                        Map.class);
+                startActivity(intent0);
+            }
+        });
+
         btnInfo = (Button) findViewById(R.id.btnInfo);
 
         btnInfo.setOnClickListener(new View.OnClickListener() {
