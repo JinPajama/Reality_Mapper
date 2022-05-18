@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/young"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="2dp"></Space>
+
+            <ScrollView
+                android:id="@+id/bio_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="301dp">
+
+                <TextView
+                    android:id="@+id/bio_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="                   층별안내
+                    \n지하:피아노 실습실
+                    \n\n1층:\n 인문대학 행정실, 인문대학 실습실, 교수연구실
+                    \n\n2층:\n 강의실, 글로벌경영기술대학 첨단실습실
+                    \n\n3층:\n 디지털 피아노실, 강의실
+                    \n\n4층:\n 교수 연구실
+                    \n\n5층:\n 교구 제작실, 교수 연구실"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"></Space>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="301dp">
+
+                <TextView
+                    android:text="              전화번호 안내\n  인문대학: 영암관 104호\n  031-467-8338\n\n  국어국문학과: 영암관 104호\n  031-467-8946\n\n  영어영문학과: 영암관 104호\n  031-467-8341\n\n  중어중문학과: 영암관 104호\n  031-467-8944\n
+                  \n  사범대학: 영암관 406호\n  031-467-8911\n\n  유아교육과: 영암관 409호\n  031-467-8038\n\n"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    ></TextView>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
