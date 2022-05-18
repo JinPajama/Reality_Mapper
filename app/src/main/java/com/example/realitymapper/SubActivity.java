@@ -1,22 +1,94 @@
 package com.example.realitymapper;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SubActivity extends AppCompatActivity {
 
     Button btnJae, btnLibrary, btnGi, btnChung, btnYoung, btnHak, btnSung, btnSin;
     /*순서대로 재림관, 학술정보관, 기념관, 중생관, 영암관, 학생회관, 성결관, 신유관*/
+    private List<String> list;
+    private ListView listView;
+    private EditText editSearch;
+    private SearchAdapter adapter;
+    private ArrayList<String> arraylist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
 
+        editSearch = (EditText) findViewById(R.id.editSearch);
+        listView = (ListView) findViewById(R.id.listView);
+
+        list = new ArrayList<String>();
+
+        settingList();
+
+        arraylist = new ArrayList<String>();
+        arraylist.addAll(list);
+
+        adapter = new SearchAdapter(list, this);
+
+        listView.setAdapter(adapter);
+
+        editSearch.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+                String text = editSearch.getText().toString();
+                search(text);
+            }
+        });
+
+
+    }
+
+    public void search(String charText) {
+
+        list.clear();
+
+        if (charText.length() == 0) {
+            list.addAll(arraylist);
+        }
+        else
+        {
+            for(int i = 0;i < arraylist.size(); i++)
+            {
+                if (arraylist.get(i).toLowerCase().contains(charText))
+                {
+                    list.add(arraylist.get(i));
+                }
+            }
+        }
+
+        adapter.notifyDataSetChanged();
+    }
+
+    private void settingList(){
+        list.add("01079143404 강승규");
+        list.add("재림과 3층 학생 0315984189");
+        list.add("학사관리 031 재림과  2층");
         btnJae  = (Button) findViewById(R.id.btnJae);
         btnLibrary = (Button) findViewById(R.id.btnLibrary);
         btnGi   = (Button) findViewById(R.id.btnGi);
