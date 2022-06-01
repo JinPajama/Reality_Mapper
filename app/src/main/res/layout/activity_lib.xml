@@ -73,7 +73,8 @@
                     android:layout_height="2dp"></Space>
 
                 <TextView
-                    android:text="              전화번호 안내\n  XR센터: 학술정보관 1층\n  031-467-8298\n\n  \n"
+                    android:text="              전화번호 안내\n  XR센터: 학술정보관 1층\n  031-467-8298\n
+\n 학술정보관: 학술정보관 6층\n  031-467-8089"
                     android:textSize="16dp"
                     android:textColor="@color/black"
                     android:layout_width="match_parent"

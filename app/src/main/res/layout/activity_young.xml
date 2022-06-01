@@ -76,14 +76,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="301dp">
 
-                <TextView
-                    android:text="              전화번호 안내\n  인문대학: 영암관 104호\n  031-467-8338\n\n  국어국문학과: 영암관 104호\n  031-467-8946\n\n  영어영문학과: 영암관 104호\n  031-467-8341\n\n  중어중문학과: 영암관 104호\n  031-467-8944\n
-                  \n  사범대학: 영암관 406호\n  031-467-8911\n\n  유아교육과: 영암관 409호\n  031-467-8038\n\n"
-                    android:textSize="16dp"
-                    android:textColor="@color/black"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    ></TextView>
+                    <TextView
+                        android:text="              전화번호 안내\n  인문대학: 영암관 104호\n  031-467-8338\n\n  국어국문학과: 영암관 104호\n  031-467-8946\n\n  영어영문학과: 영암관 104호\n  031-467-8341\n\n  중어중문학과: 영암관 104호\n  031-467-8944\n
+                  \n 동아시아물류학부: 영암관 104호\n  031-467-8121\n\n 사범대학: 영암관 406호\n  031-467-8911\n\n  유아교육과: 영암관 409호\n  031-467-8038\n\n 다문화평화연구소: 영암관 508호\n  031-467-8954,8132 \n\n  기관실: \n  031-467-8135"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        ></TextView>
 
                 </ScrollView>
 

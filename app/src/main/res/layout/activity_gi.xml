@@ -75,16 +75,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="301dp">
 
-                <TextView
-                    android:text="              전화번호 안내\n  신학대학: 기념관 231호  \n  031-467-8051\n\n  신학부: 기념관 231호  \n  031-467-8051\n
-             \n  신학과: 기념관 231호  \n  031-467-8051\n\n  예술대학: 기념관 237호  \n  031-467-8015\n\n  음악학부: 기념관 235호  \n  031-467-8283\n\n  연극영화학부: 기념관 304호  \n  031-467-8912\n\n  뷰티디자인학과: 기념관 403호  \n  031-467-8908\n\n 공연음악예술학부: 기념관 236호  \n  031-467-8375\n
+                    <TextView
+                        android:text="              전화번호 안내\n  신학대학: 기념관 231호  \n  031-467-8051\n\n  신학부: 기념관 231호  \n  031-467-8051\n
+             \n  신학과: 기념관 231호  \n  031-467-8051\n\n  문화선교학과: 기념관 231호\n  031-467-8051  \n\n  예술대학: 기념관 237호  \n  031-467-8015\n\n  음악학부: 기념관 235호  \n  031-467-8283\n\n  연극영화학부: 기념관 304호  \n  031-467-8912\n\n  뷰티디자인학과: 기념관 403호  \n  031-467-8908\n\n 공연음악예술학부: 기념관 236호  \n  031-467-8375\n
               \n  기독교교육상담학과: 기 231호  \n  031-467-8051\n\n  문화선교학과: 기념관 231호  \n  031-467-8051\n\n  언어교육원: 기념관 3층\n  031-467-8242\n\n 교수학습지원센터: 기 408,9호\n  031-467-8179\n\n  교목실: 기념관 5층\n  031-467-8202\n
              \n"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    ></TextView>
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        ></TextView>
 
                 </ScrollView>
 

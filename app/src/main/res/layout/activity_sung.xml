@@ -75,14 +75,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="301dp">
 
-                <TextView
-                    android:text="              전화번호 안내\n  산업경영공학과: 성 1층\n  031-467-8059\n\n  정보통신공학과: 성 2층\n  031-467-8073\n\n  미디어소프트웨어학과: 성3층\n  031-467-8348\n\n  컴퓨터공학과: 성 5층\n  031-467-8341, 8053\n\n  공학교육혁신센터: 성102호\n  031-467-8243\n
-                     \n 글로벌경영기술대학: 성106호\n  031-467-8059\n\n"
-                    android:textSize="16dp"
-                    android:textColor="@color/black"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    ></TextView>
+                    <TextView
+                        android:text="              전화번호 안내\n  산업경영공학과: 성 1층\n  031-467-8059\n\n  정보통신공학과: 성 2층\n  031-467-8073\n\n  미디어소프트웨어학과: 성3층\n  031-467-8348\n\n  컴퓨터공학과: 성 5층\n  031-467-8341, 8053\n\n  공학교육혁신센터: 성102호\n  031-467-8243\n
+                     \n 글로벌경영기술대학: 성106호\n  031-467-8059\n\n  기관실:\n  031-476-8135"
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        ></TextView>
 
                 </ScrollView>
 

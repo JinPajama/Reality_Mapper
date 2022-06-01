@@ -13,7 +13,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/sinn"
+            android:src="@drawable/sinyou"
             ></ImageView>
 
     </LinearLayout>
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="                   층별안내
-                    \n지하1층:\n 기관실, 전기실
+                    \n지하1층:\n 성결대학교회,기관실, 전기실
                     \n\n1층:\n 세미나실, 기숙사
                     \n\n2층:\n 기숙사, 식당
                     \n\n3층:\n 세면장, 세탁실, 샤워장, 기숙사, 기숙사행정실
@@ -72,7 +72,7 @@
                     android:layout_height="2dp"></Space>
 
                 <TextView
-                    android:text="              전화번호 안내\n\n\n\n\n\n                  정보 없음"
+                    android:text="              전화번호 안내\n 성결대학교회: 신유관 B014호\n  031-467-8330\n\n 기관실:\n  031-467-8133"
                     android:textSize="16dp"
                     android:textColor="@color/black"
                     android:layout_width="match_parent"
