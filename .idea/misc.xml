@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2235" />
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2235" />
+        <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/drawable/mops.xml" value="0.1805" />
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/activity_chung.xml" value="0.36614583333333334" />
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/activity_gi.xml" value="0.36614583333333334" />
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/activity_hak_saeng.xml" value="0.33" />
@@ -16,6 +17,7 @@
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/activity_sung.xml" value="0.36614583333333334" />
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/activity_young.xml" value="0.36614583333333334" />
         <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/map.xml" value="0.1875" />
+        <entry key="..\:/CookAndroid/Project/Reality_Mapper/app/src/main/res/layout/row_listview.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/reality mapper/Reality_Mapper/app/src/main/res/layout/activity_hak_saeng.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/reality mapper/Reality_Mapper/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/reality mapper/Reality_Mapper/app/src/main/res/layout/activity_sub.xml" value="0.365625" />

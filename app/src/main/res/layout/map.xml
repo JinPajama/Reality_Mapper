@@ -15,9 +15,9 @@
     android:id="@+id/map"
     tools:context=".Map"
     android:name="com.google.android.gms.maps.MapFragment"
-    map:cameraTargetLat="37.541"
-    map:cameraTargetLng="126.986"
-    map:cameraZoom="10" />
+    map:cameraTargetLat="37.379829"
+    map:cameraTargetLng="126.926990"
+    map:cameraZoom="20" />
 
     <!--<com.google.android.gms.maps.MapView
         android:layout_width="match_parent"
