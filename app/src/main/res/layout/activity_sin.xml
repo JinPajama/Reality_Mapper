@@ -13,7 +13,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/sinyou"
+            android:src="@drawable/sinn"
             ></ImageView>
 
     </LinearLayout>
@@ -72,12 +72,11 @@
                     android:layout_height="2dp"></Space>
 
                 <TextView
-                    android:text="              전화번호 안내\n 성결대학교회: 신유관 B014호\n  031-467-8330\n\n 기관실:\n  031-467-8133"
-                    android:textSize="16dp"
-                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    ></TextView>
+                    android:text="              전화번호 안내\n 성결대학교회: 신유관 B014호\n  031-467-8330\n\n 기관실:\n  031-467-8133"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"></TextView>
 
             </LinearLayout>
 
