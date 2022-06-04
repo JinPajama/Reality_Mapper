@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="map1" type="id" />
+    <item name="textView" type="id" />
+    <item name="editText" type="id" />
+    <item name="editText2" type="id" />
+    <item name="button" type="id" />
+    <item name="btn" type="id" />
+    <item name="edit1" type="id" />
+    <item name="edit2" type="id" />
 </resources>

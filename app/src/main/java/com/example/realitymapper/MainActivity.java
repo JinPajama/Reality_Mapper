@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnMap; /*지도*/
     Button btnInfo; /*건물정보*/
-    Button btnImprovements;  /*개선사항*/
+    Button btn1;  /*개선사항*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,5 +41,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btn1 = (Button) findViewById(R.id.btn1);
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(getApplicationContext(),
+                        MainActivity2.class);
+                startActivity(intent2);
+            }
+        });
     }
+
 }

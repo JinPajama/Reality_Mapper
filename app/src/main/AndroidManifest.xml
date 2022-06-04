@@ -2,17 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.realitymapper">
 
-    <uses-feature android:required="true" android:glEsVersion="0x00020000"/>
-    <uses-permission android:name="com.example.realitymapper.permission.MAPS_RECEIVE"
-        android:label="signature"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <!--<meta-data android:name = "com.google.android.gms.version"
-        android:value = "@integer/google_play_services_version"/>-->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission
+        android:name="com.example.realitymapper.permission.MAPS_RECEIVE"
+        android:label="signature" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +23,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RealityMapper.NoActionBar">
-
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -31,41 +35,40 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Map"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SubActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".LibActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".HakSaengActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".JaeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".GiActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SungActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SinActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".YoungActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ChungActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
 
-
-        <meta-data android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCzAnNgTVOUnifl_9pZYp_fxFrSswAa6b0"/>  <!--[!] 어플리케이션 닫기 바로 위에 위치해야함-->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCzAnNgTVOUnifl_9pZYp_fxFrSswAa6b0" />
     </application>
 
 </manifest>

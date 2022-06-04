@@ -73,7 +73,7 @@
                 android:textColor="#5bb435"></Button>
 
             <Button
-                android:id="@+id/btnImprovements"
+                android:id="@+id/btn1"
                 android:layout_width="143dp"
                 android:layout_height="54dp"
                 android:layout_gravity="center_horizontal"
