@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
     private TextView textView;
     private EditText editText,editText2;
     private Button button;
-
+    
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
     DatabaseReference conditionRef = mRootRef.child("Data");
 
